@@ -6,6 +6,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/kyc")
+@CrossOrigin(origins = "*")
 public class KycController {
 
     @PostMapping("/verify")
